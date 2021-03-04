@@ -1,0 +1,19 @@
+h1 {
+  color: grey;
+}
+
+h2 {
+  color: wheat;
+}
+
+#special-item {
+  color: aquamarine;
+}
+
+.my-list {
+  color: cornflowerblue;
+}
+
+.your-list {
+  font-size: x-large;
+}

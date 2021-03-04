@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Coopflix | Login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <h1>Coopflix</h1>
+    <h2>Don't do homework | Watch Coopflix instead</h2>
+
+    <form>
+      <h3 id="login-response"></h3>
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" />
+      </div>
+
+      <div>
+        <label for="pass">Password (8 characters minimum):</label>
+        <input
+          type="password"
+          id="pass"
+          name="password"
+          minlength="8"
+          required
+        />
+      </div>
+
+      <button type="submit">Sign in</button>
+    </form>
+
+    <script type="text/javascript" src="login.js"></script>
+  </body>
+</html>
