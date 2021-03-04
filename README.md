@@ -13,3 +13,7 @@ python -m SimpleHTTPServer  # python2 -m SimpleHTTPServer
 ```
 
 Then, go to localhost:8000 in your browser. As you change files, you should be able to refresh the page to see changes.
+
+Basic diagram of how this works together:
+
+![basic diagram](basic.png)
